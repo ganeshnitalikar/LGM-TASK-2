@@ -1,0 +1,138 @@
+body{
+  background-color: #D0CFEC;
+}
+
+.rainbow{
+  animation: rainbow 3s ease-in infinite;
+}
+
+button {
+  color: black;
+  width: 10vw;
+  font-weight: 600;
+  font-size: 1.3rem;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color: #F0F0C9;
+  height: 6vh;
+}
+button:hover {
+  transform: scale(1.08);
+  transition: .4s ease-in;
+  background-color: aqua;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.row{
+  display: flex;
+  height: 60px;
+  padding: 10px 50px 0px 30px;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-family: serif;
+  text-shadow: 2px 2px 3px rgb(165, 151, 151);
+  letter-spacing: 2px;
+}
+
+.column2 {
+  height: 100%;
+  float: left;
+  width: 30%;
+  margin-right: 50px;
+}
+
+
+.nav {
+  background-color: #2E1760;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box2 {
+  display: flex;
+  margin: 40px 0 0 100px;
+}
+
+.avatar {
+  border-radius: 10%;
+}
+
+.column3 {
+  float: left !important;
+  width: 33% !important;
+
+}
+h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  font-size: 50px;
+}
+
+@keyframes rainbow {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+  
+}
+
+
+.profile {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 300px;
+  margin: 20px 5px;
+  text-align: center;
+  font-family: serif;
+  padding: 20px;
+  border-radius: 18px;
+  background-color: #9046CF;
+}
+
+.profile:hover {
+  cursor: pointer;
+  transition: .5s ease-in-out;
+  box-shadow: 8px 8px 5px rgb(83, 83, 83);
+  transform: scale(1.1);
+}
+.email {
+  color: rgb(39, 33, 33);
+  font-size: 18px;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.name {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#main {
+  padding: 7px 50px;
+  margin: 0 auto;
+  display: none;
+}
+.loader {
+  margin: 0 auto;
+}
